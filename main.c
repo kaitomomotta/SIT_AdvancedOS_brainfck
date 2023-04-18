@@ -110,10 +110,10 @@ void process(char* buffer)
    return;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
    char * buffer = 0;
    long length;
-   FILE * f = fopen ("test8.bf", "rb");
+   FILE * f = fopen (argv[1], "rb");
 
    if (f)
    {
