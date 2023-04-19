@@ -133,9 +133,10 @@ int main(int argc, char *argv[]) {
       // start to process your data / extract strings here...
       //preparray(tab);
        //ICI CEST IMPORTANT
-      printf("%s",buffer);
-      printf("\n");
+      //printf("%s",buffer);
+      
       process(buffer);
+      //printf("\n");
       //printf("%c",(char)tab[head]);
    }
    return 0;
